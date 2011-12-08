@@ -6,6 +6,9 @@ Gem::Specification.new do |s|
   s.description = "Simple gem for searching and sorting data."
   s.authors     = ["Artem Kornienko"]
   s.email       = 'send.this.to.moff@gmail.com'
-  s.files       = ["lib/sa_detector.rb"]
+
+  s.files        = Dir["{lib,spec}/**/*", "[A-Z]*", "init.rb"] - ["Gemfile.lock"]
+  s.require_path = "lib"
+
   s.homepage    = 'http://rubygems.org/gems/sa_detector'
 end

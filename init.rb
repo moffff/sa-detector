@@ -1,0 +1,1 @@
+require 'sa_detector'
